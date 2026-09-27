@@ -15,14 +15,14 @@ A Java implementation of a 3x3 Rubik's Cube solver using Breadth-First Search (B
 - Writes the solution moves to an output file
 
 ## Project Structure
-
+```
 src/
 └── rubikscube/
     ├── IncorrectFormatException.java
     ├── RubiksCube.java
     ├── RubiksCubeSolver.java
     └── Solver.java
-
+```
 ## Algorithms
 
 Breadth-First Search
@@ -46,7 +46,7 @@ To reduce unnecessary search and control memory and runtime usage, the solver:
 - Limits the number of A* states expanded
 - Uses a runtime limit to prevent excessively long searches
   
-##Technologies and Concepts
+## Technologies and Concepts
 
 - Java
 - Breadth-First Search
@@ -57,7 +57,7 @@ To reduce unnecessary search and control memory and runtime usage, the solver:
 - State-Space Search
 - File Input/Output
   
-##Background
+## Background
 
 This project was originally developed as part of a data structures and algorithms course.
 The main challenge was managing the very large search space of a Rubik's Cube while keeping memory usage and execution time manageable. The project uses a combination of BFS, A* search, heuristics, visited-state tracking, and search limits to balance solution quality with performance.
