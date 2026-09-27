@@ -16,7 +16,6 @@ A Java implementation of a 3x3 Rubik's Cube solver using Breadth-First Search (B
 
 ## Project Structure
 
-```text
 src/
 └── rubikscube/
     ├── IncorrectFormatException.java
